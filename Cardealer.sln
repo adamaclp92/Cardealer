@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{73986B73-CF29-4F14-A894-69295F3FB699}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{9B027410-A836-49EB-9389-C341073E6298}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "proto", "proto", "{2B47C1EE-6459-4D31-B1EA-91693767564B}"
+	ProjectSection(SolutionItems) = preProject
+		cardealer.proto = cardealer.proto
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73986B73-CF29-4F14-A894-69295F3FB699}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73986B73-CF29-4F14-A894-69295F3FB699}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73986B73-CF29-4F14-A894-69295F3FB699}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73986B73-CF29-4F14-A894-69295F3FB699}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B027410-A836-49EB-9389-C341073E6298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B027410-A836-49EB-9389-C341073E6298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B027410-A836-49EB-9389-C341073E6298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B027410-A836-49EB-9389-C341073E6298}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6012778B-A2DF-4438-8CD0-40726A0569B5}
+	EndGlobalSection
+EndGlobal
